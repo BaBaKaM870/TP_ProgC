@@ -46,3 +46,4 @@ int main() {
     printf("   long double        : %zu octets\n\n", sizeof(long double));
     
     return 0;
+}
