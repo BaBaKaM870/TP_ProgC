@@ -1,13 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int a = 2;      // valeur de départ
-    int b = 3;      // exposant
-    int resultat = 1;   // résultat de a^b
+    int a, b;
+    int resultat = 1;
 
-    // Boucle pour calculer a^b
+    // Saisie de a
+    printf("Entrez la valeur de a : ");
+    scanf("%d", &a);
+
+    // Saisie de b
+    printf("Entrez la valeur de b : ");
+    scanf("%d", &b);
+
+    // Calcul de a^b
     for (int i = 0; i < b; i++) {
-        resultat *= a;   // équivalent à resultat = resultat * a
+        resultat *= a;
     }
 
     // Affichage du résultat
