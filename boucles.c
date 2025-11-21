@@ -95,6 +95,7 @@ int main() {
     
     printf("=== Programme de Triangle Rectangle ===\n\n");
     printf("Entrez la taille du triangle (< 10) : ");
+    fflush(stdout);  // Force l'affichage immédiat
     scanf("%d", &compteur);
     
     // Validation de l'entrée
